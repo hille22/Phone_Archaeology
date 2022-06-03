@@ -1,0 +1,24 @@
+// ABCDiatype-Bold.ttf
+// ABCDiatype-BoldItalic.ttf
+// ABCDiatype-Light.ttf
+// ABCDiatype-LightItalic.ttf
+// ABCDiatype-Medium.ttf
+// ABCDiatype-MediumItalic.ttf
+// ABCDiatype-Regular.ttf
+// ABCDiatype-RegularItalic.ttf
+// ABCDiatype-Thin.ttf
+// ABCDiatype-ThinItalic.ttf
+
+@font-face {
+  font-family: "ABCDiatype";
+  src: url("/assets/font/ABCDiatype-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ABCDiatype";
+  src: url("/assets/font/ABCDiatype-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}

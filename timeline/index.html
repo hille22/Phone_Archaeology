@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Timeline</title>
+  </head>
+  <body>
+    <header class="menu">
+      <div class="logo"><a href="../index.html" class="link-logo">Phone Archaeology</a></div>
+      <div class="empty"></div>
+      <div class="index"><a class="link-menu" href="../index.html" >Index</a></div>
+      <div class="about"><a class="link-menu" href="../about/index.html" >About</a></div>
+    </header>
+
+    <div class="page-wrap">
+      <div class="empty-content">
+      </div>
+      <div class="content">
+        Canevas
+      </div>
+      <div class="sidebar right-sidebar">
+        <img class="phone-sidebar" src="./assets/images/1.png" />
+        <div class="name">Nokia 3330</div>
+        <div class="period">2004 - 2005</div>
+        <p class="chapeau">When I wanted to call my parents to give them news I had to climb 200 meters above the cottage and hold my arm in the air to hope to get some bars of network.</p>
+        <p class="story">My grandmother used to lend me this phone and ended up giving it to me. I pretty much only used it to play Snake. And other games. I remember using it when I was on vacation with her in her chalet in the Etivaz mountain pasture.  When I wanted to call my parents to give them news I had to climb 200 meters above the chalet and reach up to get some bars of network.</p>
+      </div>
+    </div>
+
+    <footer class="menu-footer">
+     <a href="../index.html"><div class="list" ></div></a> 
+      <div class="back"></div>
+      <div class="next"></div>
+      <div class="empty-footer"></div>
+      <div class="model">Nokia 3300</div>
+      <div class="info" id="toggle">i</div>
+    </footer>
+  </body>
+  <script>
+    (function hideColumn(d) {
+      "use strict";
+
+      const wrapper = d.querySelector(".page-wrap");
+      const toggle = d.querySelector("#toggle");
+      toggle.addEventListener("click", hideRightColumn);
+      function hideRightColumn() {
+        wrapper.classList.toggle("hide");
+      }
+    })(document);
+  </script>
+</html>
